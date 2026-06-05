@@ -1,34 +1,80 @@
-# CodeAlpha_Translator
+# 🌍 Language Translation Tool
 
-This project is a Language Translation Tool developed using Python and the deep-translator library as part of the CodeAlpha Artificial Intelligence Internship.
+## 📌 Overview
 
-## Features
+The Language Translation Tool is an AI-powered application developed as part of the CodeAlpha Artificial Intelligence Internship. This project enables users to translate text from one language to another using Google Translator through the Deep Translator library.
+
+The application features a simple and interactive Streamlit-based user interface for easy translation.
+
+## 🚀 Features
 
 * Translate text between multiple languages
-* Simple command-line interface
-* Uses Google Translator API
+* User-friendly web interface
+* Source language selection
+* Target language selection
+* Instant translation results
+* Fast and accurate translations
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * Python
-* deep-translator
+* Streamlit
+* Deep Translator
 
-## Installation
+## 📂 Project Structure
 
-```bash
-python -m pip install deep-translator
+```text
+CodeAlpha_Translator/
+│
+├── translator.py
+├── requirements.txt
+└── README.md
 ```
 
-## How to Run
+## 📥 Installation
+
+Clone the repository:
 
 ```bash
-python translator.py
+git clone https://github.com/soujanyayarva3/CodeAlpha_Translator.git
 ```
 
-## Internship
+Navigate to the project folder:
 
-CodeAlpha Artificial Intelligence Internship
+```bash
+cd CodeAlpha_Translator
+```
 
-## Author
+Install the required libraries:
 
-Soujanya Yarva
+```bash
+python -m pip install -r requirements.txt
+```
+
+## ▶️ How to Run
+
+Run the Streamlit application:
+
+```bash
+python -m streamlit run translator.py
+```
+
+After running the command, the application will automatically open in your default web browser.
+
+## 📸 Output
+
+* Enter the text to translate
+* Select the source language
+* Select the target language
+* Click the Translate button
+* View the translated text instantly
+
+## 🎯 Internship Task
+
+**CodeAlpha Artificial Intelligence Internship**
+
+**Task 1: Language Translation Tool**
+
+## 👩‍💻 Author
+
+**Soujanya Yarva**
